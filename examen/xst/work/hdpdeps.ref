@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/examen/EXAMEN.vhd 2023/10/03.22:12:31 P.20131013
+EN work/EXAMEN 1696371161 FL /home/ise/examen/EXAMEN.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EXAMEN/Behavioral 1696371162 \
+      FL /home/ise/examen/EXAMEN.vhd EN work/EXAMEN 1696371161

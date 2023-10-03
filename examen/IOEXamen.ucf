@@ -1,0 +1,16 @@
+NET "clk" LOC = "B8"; 
+NET "rst" LOC = "B18";
+
+NET "dig(0)" LOC = "F17";
+NET "dig(1)" LOC = "H17";
+NET "dig(2)" LOC = "C18";
+NET "dig(3)" LOC = "F15";
+
+NET "seg(0)" LOC = "L18";
+NET "seg(1)" LOC = "F18";
+NET "seg(2)" LOC = "D17";
+NET "seg(3)" LOC = "D16";
+NET "seg(4)" LOC = "G14";
+NET "seg(5)" LOC = "J17";
+NET "seg(6)" LOC = "H14";
+NET "seg(7)" LOC = "C17";

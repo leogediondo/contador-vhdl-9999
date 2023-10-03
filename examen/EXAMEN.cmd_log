@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
+xst -intstyle ise -ifn "/home/ise/examen/EXAMEN.xst" -ofn "/home/ise/examen/EXAMEN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOEXamen.ucf -p xc3s500e-fg320-4 EXAMEN.ngc EXAMEN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EXAMEN_map.ncd EXAMEN.ngd EXAMEN.pcf 
+par -w -intstyle ise -ol high -t 1 EXAMEN_map.ncd EXAMEN.ncd EXAMEN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EXAMEN.twx EXAMEN.ncd -o EXAMEN.twr EXAMEN.pcf -ucf IOEXamen.ucf 
+bitgen -intstyle ise -f EXAMEN.ut EXAMEN.ncd 
